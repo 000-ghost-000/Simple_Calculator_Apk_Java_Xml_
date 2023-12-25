@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
                 if (num2 != 0) {
                     result = num1 / num2;
                 } else {
-                    Toast.makeText(this, "Cannot divide by zero", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "Why you are doing this dont you have sense", Toast.LENGTH_SHORT).show();
                     return; // Exit the method if division by zero is attempted
                 }
                 break;
